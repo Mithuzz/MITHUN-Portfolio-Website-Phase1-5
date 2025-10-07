@@ -1,0 +1,123 @@
+/* Reset & base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  header {
+    background: #f5f5f5;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  nav a {
+    font-weight: bold;
+  }
+  .hero {
+    margin-top: 40px;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .hero p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+  }
+  .btn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Sections */
+  section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  section h2 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .skills ul {
+    list-style: disc inside;
+  }
+  .project-list, .experience-list {
+    display: grid;
+    gap: 30px;
+  }
+  .project-item, .experience-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 6px;
+  }
+  .experience-item span {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: auto;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #f5f5f5;
+  }
+  footer .social {
+    margin-top: 10px;
+  }
+  footer .social a {
+    margin: 0 10px;
+  }
+  
